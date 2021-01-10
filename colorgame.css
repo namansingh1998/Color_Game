@@ -1,0 +1,65 @@
+body{
+	background-color: black;
+	margin:0px;
+}
+.block{
+	background-color: purple;
+	width: 30%;
+	float: left;
+	height: 10em;
+	margin: 10px;
+	border-radius: 25px;
+}
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.head{
+	color: white;
+	background-color: purple;
+	text-align: center;
+}
+.bar{
+	color: blue;
+	background-color: white;
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+}
+h1{
+	text-transform: uppercase;
+		margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Abel', sans-serif;
+	font-size: 5em;
+}
+#ta{
+	visibility: hidden;
+}
+#newcolor{
+	margin-right: 10%;
+}
+#e{
+	margin-left: 10%;
+}
+.hi:hover{
+	color: white;
+background-color: purple;
+}
+p{
+	margin-top: 0px;
+}
+h2{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Abel', sans-serif;
+	font-size: 2em;
+}
+.show {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
